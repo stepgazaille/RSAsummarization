@@ -1,0 +1,11 @@
+name: rsa
+dependencies:
+  - python=2.7
+  - jupyter=1.0.0
+  - pylint
+  - rope
+  #- tensorflow==1.2.1
+  #- tensoreflow-gpu==1.2.1 
+  - pip:
+    - pyrouge
+

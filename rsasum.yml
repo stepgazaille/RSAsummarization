@@ -4,6 +4,8 @@ dependencies:
   - jupyter=1.0.0
   - pylint
   - rope
+  - nltk
+  - scikit-learn
   #- tensorflow==1.2.1
   #- tensoreflow-gpu==1.2.1 
   - pip:

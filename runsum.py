@@ -5,7 +5,7 @@ from glob import glob
 from nltk.corpus import stopwords
 import os, struct
 from tensorflow.core.example import example_pb2
-import pyrouge
+#import pyrouge
 import shutil
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -14,11 +14,8 @@ stemmer = PorterStemmer()
 
 ratio = 1
 duc_num = 6
-cmd = '/root/miniconda2/bin/python run_summarization.py --mode=decode --single_pass=1 --coverage=True --vocab_path=finished_files/vocab --log_root=log --exp_name=myexperiment --data_path=test/temp_file --max_enc_steps=4000'
-#cmd = '/root/miniconda2/bin/python ../pointer-generator-master/run_summarization.py --mode=decode --single_pass=1 --coverage=True --vocab_path=finished_files/vocab --log_root=log --exp_name=myexperiment --data_path=test/temp_file'
-
-generated_path = '/gttp/pointer-generator-tal/log/myexperiment/decode_test_4000maxenc_4beam_35mindec_100maxdec_ckpt-238410/'
-#generated_path = '/gttp/pointer-generator-master/log/myexperiment/decode_test_4000maxenc_4beam_35mindec_120maxdec_ckpt-238410/'
+cmd = 'python run_summarization.py --mode=decode --single_pass=1 --coverage=True --vocab_path=../data/DMQA/finished_files/vocab --log_root=log --exp_name=myexperiment --data_path=test/temp_file --max_enc_steps=4000'
+generated_path = 'log/myexperiment/decode_test_4000maxenc_4beam_35mindec_100maxdec_ckpt-238410/'
 cmd = cmd.split()
 stopwords = set(stopwords.words('english'))
 
@@ -45,6 +42,7 @@ def write_to_file(article, abstract, rel, writer):
 
 def duck_iterator(i):
     duc_folder = 'duc0' + str(i) + 'tokenized/'
+    print("Loading corpus from  " + duc_folder + "...")
     for topic in os.listdir(duc_folder + 'testdata/docs/'):
         topic_folder = duc_folder + 'testdata/docs/' + topic
         if not os.path.isdir(topic_folder):
@@ -102,7 +100,7 @@ def get_tfidf_score_func_glob(magic = 1):
 
     return tfidf_score_func
 
-tfidf_score = get_tfidf_score_func_glob()
+#tfidf_score = get_tfidf_score_func_glob()
 
 
 def get_tfidf_score_func(magic = 10):
@@ -177,12 +175,8 @@ def get_summaries(path):
 
 def rouge_eval(ref_dir, dec_dir):
     """Evaluate the files in ref_dir and dec_dir with pyrouge, returning results_dict"""
-    r = pyrouge.Rouge155()
-    r.model_filename_pattern = '#ID#_reference_(\d+).txt'
-    r.system_filename_pattern = '(\d+)_decoded.txt'
-    r.model_dir = ref_dir
-    r.system_dir = dec_dir
-    return r.convert_and_evaluate()
+    
+    return "Evaluating " + dec_dir + "..." 
 
 def evaluate(summaries):
     for path in ['eval/ref', 'eval/dec']:
@@ -197,25 +191,46 @@ def evaluate(summaries):
     print rouge_eval('eval/ref/', 'eval/dec/') 
 
 
-#count_score
-#score_func = ones#get_w2v_score_func()#get_tfidf_score_func()#count_score
+
+print("COMPUTE TF-IDF SCORES:")
+#count_score # OLD
+#score_func = ones#get_w2v_score_func()#get_tfidf_score_func()#count_score # OLD
+tfidf_score = get_tfidf_score_func_glob()
 score_func = get_tfidf_score_func()
 
-summaries = [Summary(texts, abstracts, query) for texts, abstracts, query in duck_iterator(duc_num)]
 
+print("LOAD DOCUMENTS:")
+summaries = [Summary(texts, abstracts, query) for texts, abstracts, query in duck_iterator(duc_num)]
+print("DONE!")
+
+print("CREATING FILES...")
 with open('test/temp_file', 'wb') as writer:
     for summ in summaries:
         article, abstract, scores = summ.get()
         write_to_file(article, abstracts, scores, writer)
+print("DONE!")
+
+
+
+print("GENERATE SUMMARIES:")
 call(['rm', '-r', generated_path])
 call(cmd)
+print("DONE!")
+
+
+
+print("READING SUMMARIES FROM FILE...")
 generated_summaries = get_summaries(generated_path)
+print("DONE!")
 
 for i in range(len(summaries)):
     summaries[i].add_sum(generated_summaries[i])
 
+print("EVALUATE SUMMARIES:")
 evaluate(summaries)
-print duc_num
-print score_func 
+print("DONE!")
+
+#print duc_num
+#print score_func 
 
 

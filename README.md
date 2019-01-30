@@ -9,6 +9,10 @@ Most of the code in this reposetory was taken from [here](https://github.com/tal
 # Installation
 Using Anaconda:
 ```
+# Clone the repository:
+git clone https://github.com/stepgazaille/RSAsummarization.git
+cd RSAsummarization
+
 # Create and activate a virtual environment:
 conda env create -f rsasum.yml
 conda activate rsa
@@ -23,7 +27,7 @@ python -m nltk.downloader stopwords
 pip install git+https://github.com/tagucci/pythonrouge.git
 ```
 
-Update cmd generated_path and variables from multidocs.py:
+Update "cmd" and "generated_path" and variables from multidocs.py:
 ```
 # TODO: take the following as script parameters?
 cmd = 'python run_summarization.py --mode=decode --single_pass=1 --coverage=True --vocab_path=../data/DMQA/finished_files/vocab --log_root=log --exp_name=myexperiment --data_path=test/temp_file --max_enc_steps=4000'
@@ -32,13 +36,23 @@ generated_path = 'log/myexperiment/decode_test_4000maxenc_4beam_35mindec_100maxd
 
 
 # Datasets
-## Pretraned model
-Use Tensorflow 1.2.1 pretrained model from [here](https://github.com/abisee/pointer-generator).
+## Pretrained model
+Download the Tensorflow 1.2.1 pretrained model from [here](https://github.com/abisee/pointer-generator) and copy it to the RSAsummarization directory:
+```
+cd RSAsummarization
+mkdir test
+mkdir -p log/myexperiment/
+
+# Adapt those:
+unzip ../data/RSAsum_models/pretrained_model_tf1.2.1.zip
+cp -r ../data/RSAsum_models/pretrained_model_tf1.2.1/train/ log/myexperiment/train/
+cp -r ../data/RSAsum_models/pretrained_model_tf1.2.1/decode_test_400maxenc_4beam_35mindec_120maxdec_ckpt-238410/ log/myexperiment/decode_test_4000maxenc_4beam_35mindec_100maxdec_ckpt-238410/
+```
 
 ## DMQA data
 All you need is [here](https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail).
 
-## DUC
+## DUC data
 Get permission [here](https://duc.nist.gov/data.html) and then:
 ```
 # TODO: automate all this...
@@ -85,14 +99,7 @@ rm -rf mainEval/
 # replace "é" characters with "e" in word "émigré" in file duc05tokenized/models/D354.M.250.C.C
 # replace "é" characters with "e" word "Jean Chrétien" in ??
 ```
-Create file hierarchy:
-```
-mkdir test
-mkdir -p log/myexperiment/
-unzip ../data/RSAsum_models/pretrained_model_tf1.2.1.zip
-cp -r ../data/RSAsum_models/pretrained_model_tf1.2.1/train/ log/myexperiment/train/
-cp -r ../data/RSAsum_models/pretrained_model_tf1.2.1/decode_test_400maxenc_4beam_35mindec_120maxdec_ckpt-238410/ log/myexperiment/decode_test_4000maxenc_4beam_35mindec_100maxdec_ckpt-238410/
-```
+
 
 # Usage
 Normal:

@@ -6,6 +6,7 @@ from nltk.corpus import stopwords
 import os, struct
 from tensorflow.core.example import example_pb2
 #import pyrouge
+from pythonrouge.pythonrouge import Pythonrouge
 import shutil
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -53,7 +54,8 @@ def duck_iterator(i):
         topic_texts = [' '.join(open(topic_folder + '/' + file).readlines()).replace('\n', '') for file in
                        os.listdir(topic_folder)]
 
-        abstracts = [' '.join(open(f).readlines()) for f in model_files]
+        #abstracts = [' '.join(open(f).readlines()) for f in model_files]
+        abstracts = [open(f).readlines() for f in model_files]
         yield topic_texts, abstracts, query
 
 def ones(sent, ref): return 1.
@@ -173,29 +175,32 @@ def get_summaries(path):
         out[index] = open(path+file_name).readlines()
     return out
 
-def rouge_eval(ref_dir, dec_dir):
-    """Evaluate the files in ref_dir and dec_dir with pyrouge, returning results_dict"""
-    
-    return "Evaluating " + dec_dir + "..." 
 
-def evaluate(summaries):
-    for path in ['eval/ref', 'eval/dec']:
-        if os.path.exists(path): shutil.rmtree(path, True)
-        os.mkdir(path)
-    for i, summ in enumerate(summaries):
-        for j,abs in enumerate(summ.abstracts):
-            with open('eval/ref/'+str(i)+'_reference_'+str(j)+'.txt', 'w') as f:
-                f.write(abs)
-        with open('eval/dec/'+str(i)+'_decoded.txt', 'w') as f:
-            f.write(' '.join(summ.summary))
-    print rouge_eval('eval/ref/', 'eval/dec/') 
+
+#def evaluate(summaries):
+#    for path in ['eval/ref', 'eval/dec']:
+#        if os.path.exists(path):
+#            shutil.rmtree(path, True)
+#        os.mkdir(path)
+#    scores = []
+#    for i, summ in enumerate(summaries):
+#        rouge = Pythonrouge(summary_file_exist=False,
+#                summary=summ.summary, reference=summ.abstracts,
+#                n_gram=2, ROUGE_SU4=True, ROUGE_L=False,
+#                recall_only=True, stemming=True, stopwords=True,
+#                word_level=True, length_limit=True, length=50,
+#                use_cf=False, cf=95, scoring_formula='average',
+#                resampling=True, samples=1000, favor=True, p=0.5)
+#        score = rouge.calc_score()
+#        scores.append(score)
+#    return scores
 
 
 
 print("COMPUTE TF-IDF SCORES:")
 #count_score # OLD
 #score_func = ones#get_w2v_score_func()#get_tfidf_score_func()#count_score # OLD
-tfidf_score = get_tfidf_score_func_glob()
+#tfidf_score = get_tfidf_score_func_glob()
 score_func = get_tfidf_score_func()
 
 
@@ -204,33 +209,56 @@ summaries = [Summary(texts, abstracts, query) for texts, abstracts, query in duc
 print("DONE!")
 
 print("CREATING FILES...")
-with open('test/temp_file', 'wb') as writer:
-    for summ in summaries:
-        article, abstract, scores = summ.get()
-        write_to_file(article, abstracts, scores, writer)
+#with open('test/temp_file', 'wb') as writer:
+#    for summ in summaries:
+#        article, abstract, scores = summ.get()
+#        write_to_file(article, abstracts, scores, writer)
 print("DONE!")
-
 
 
 print("GENERATE SUMMARIES:")
-call(['rm', '-r', generated_path])
-call(cmd)
+#call(['rm', '-r', generated_path])
+#call(cmd)
 print("DONE!")
-
 
 
 print("READING SUMMARIES FROM FILE...")
-generated_summaries = get_summaries(generated_path)
-print("DONE!")
-
+generated_summaries = get_summaries(generated_path)#
 for i in range(len(summaries)):
     summaries[i].add_sum(generated_summaries[i])
-
-print("EVALUATE SUMMARIES:")
-evaluate(summaries)
 print("DONE!")
 
-#print duc_num
-#print score_func 
 
+print("EVALUATE SUMMARIES:")
+scores = []
+avg_r1 = 0.0
+avg_r2 = 0.0
+avg_l = 0.0
+avg_su4 = 0.0
+for i, summ in enumerate(summaries):
+    rouge = Pythonrouge(summary_file_exist=False,
+                summary=summ.summary, reference=summ.abstracts,
+                n_gram=2, ROUGE_SU4=True, ROUGE_L=True,
+                recall_only=True, stemming=True, stopwords=True,
+                word_level=True, length_limit=True, length=50,
+                use_cf=False, cf=95, scoring_formula='average',
+                resampling=True, samples=1000, favor=True, p=0.5)
+    score = rouge.calc_score()
+    print score
+    avg_r1 += score['ROUGE-1']
+    avg_r2 += score['ROUGE-2']
+    avg_l += score['ROUGE-L']
+    avg_su4 += score['ROUGE-SU4']
+
+    scores.append(score)
+#scores = evaluate(summaries)
+print("DONE!")
+
+print("RESULTS FOR DUC 200" + str(duc_num) + ":")
+print "AVERAGE ROUGE-1:   " + str(avg_r1 / len(summaries))
+print "AVERAGE ROUGE-2:   " + str(avg_r2 / len(summaries))
+print "AVERAGE ROUGE-L:   " + str(avg_l / len(summaries))
+print "AVERAGE ROUGE-SU4: " + str(avg_su4 / len(summaries))
+
+#print score_func 
 

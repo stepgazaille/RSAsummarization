@@ -20,8 +20,8 @@ Python 2.7:
 # Installation
 ## NVIDIA
 - Install NVIDIA drivers from [here](https://www.nvidia.com/Download/index.aspx?lang=en-us).
-- Download CUDA from [here](https://developer.nvidia.com/cuda-90-download-archive), and install by using [these instructions](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html).
-- Download cuDNN v5 (May 27, 2016), for CUDA 8.0 from [here](https://developer.nvidia.com/rdp/cudnn-archive), and install by using [these instructions](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html).
+- Download CUDA 8 from [here](https://developer.nvidia.com/cuda-90-download-archive), and install using [these instructions](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html).
+- Download cuDNN v5 (May 27, 2016), for CUDA 8.0 from [here](https://developer.nvidia.com/rdp/cudnn-archive), and install using [these instructions](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html).
 
 
 ## Java
@@ -29,7 +29,7 @@ Instructions to install the Stanford CoreNLP can by found [here](https://github.
 
 
 ## Perl
-Instructions to install ROUGE-1.5.5 can by found [here]().
+Instructions to install ROUGE-1.5.5 can by found [here](https://web.archive.org/web/20171107220839/www.summarizerman.com/post/42675198985/figuring-out-rouge).
 
 
 

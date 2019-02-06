@@ -13,8 +13,8 @@ from nltk.stem.porter import *
 stemmer = PorterStemmer()
 
  
-cmd = 'python run_summarization.py --mode=decode --single_pass=1 --coverage=True --vocab_path=../data/DMQA/finished_files/vocab --log_root=log --exp_name=myexperiment --data_path=test/temp_file --max_enc_steps=4000'
-generated_path = 'log/myexperiment/decode_test_4000maxenc_4beam_35mindec_100maxdec_ckpt-238410/'
+cmd = '/root/miniconda2/bin/python run_summarization.py --mode=decode --single_pass=1 --coverage=True --vocab_path=finished_files/vocab --log_root=log --exp_name=myexperiment --data_path=test/temp_file --max_enc_steps=4000'
+generated_path = '/gttp/pointer-generator-tal/log/myexperiment/decode_test_4000maxenc_4beam_35mindec_100maxdec_ckpt-238410/'
 cmd = cmd.split()
 stopwords = set(stopwords.words('english'))
 
@@ -22,17 +22,8 @@ max_len = 250
 
 
 def pp(string):
-    #try:
-    #    text = ' '.join([stemmer.stem(word.decode('utf8')) for word in string.lower().split() if not word in stopwords])
-    #except Exception as e:
-    #    print(word)
-    #    print(string)
-    #    print(e)
-    #    import sys
-    #    sys.exit()
-    #return text
     return ' '.join([stemmer.stem(word.decode('utf8')) for word in string.lower().split() if not word in stopwords])
-
+    
 def write_to_file(article, abstract, rel, writer):
     abstract = '<s> '+' '.join(abstract)+' </s>'
     #abstract = abstract.encode('utf8', 'ignore')
@@ -50,9 +41,7 @@ def write_to_file(article, abstract, rel, writer):
 
 def duck_iterator(i):
     duc_folder = 'duc0' + str(i) + 'tokenized/'
-    print("Loading corpus from  " + duc_folder + "...")
     for topic in os.listdir(duc_folder + 'testdata/docs/'):
-        #print(topic)
         topic_folder = duc_folder + 'testdata/docs/' + topic
         if not os.path.isdir(topic_folder):
             continue
@@ -93,11 +82,7 @@ tfidf_score = get_tfidf_score_func()
 
 class Summary:
     def __init__(self, texts, abstracts, query):
-        #print("QUERY:", query)
-        #print("ABSTRACS:", abstracts)
-        #print("TEXTS:", texts)
-
-
+        
         #texts = sorted([(tfidf_score(query, text), text) for text in texts], reverse=True)
         texts = sorted([(tfidf_score(text, ' '.join(abstracts)), text) for text in texts], reverse=True)
 

@@ -125,14 +125,12 @@ rm -rf mainEval/
 ```
 
 ### Pre-processing
-Excute all three DUC preproc script and copy the resulting duc0Ntokenized directories to the RSAsummarization directory:
+For each of all three DUC data sets, execute the three preproc scripts and copy the resulting duc0Ntokenized directory to the RSAsummarization directory:
 ```
-python duc2005_preproc.py
-cp -R duc05tokenized/ RSAsummarization/duc05tokenized
-python duc2006_preproc.py
-cp -R duc06tokenized/ RSAsummarization/duc06tokenized
-python duc2007_preproc.py
-cp -R duc07tokenized/ RSAsummarization/duc07tokenized
+python duc200N_docs_preproc.py
+python duc200N_models_preproc.py
+python duc200N_queries_preproc.py
+cp -R duc0Ntokenized/ RSAsummarization/duc0Ntokenized
 ```
 
 # Usage

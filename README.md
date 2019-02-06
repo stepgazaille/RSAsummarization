@@ -1,41 +1,70 @@
 Most of the code in this reposetory was taken from [here](https://github.com/talbaumel/RSAsummarization).
 
 # Requirements
-- Python 2.7
+NVIDIA:
 - CUDA 8.0
-- cuDNN v5 (May 27, 2016), for CUDA 8.0
+- cuDNN v5
+
+Java:
+- Stanford CoreNLP
+
+Perl:
+- ROUGE-1.5.5
+
+
+Python 2.7:
 - tensorflow-gpu 1.2.1
+- pyrouge
+
 
 # Installation
-Using Anaconda:
+## NVIDIA
+- Install NVIDIA drivers from [here](https://www.nvidia.com/Download/index.aspx?lang=en-us).
+- Download CUDA from [here](https://developer.nvidia.com/cuda-90-download-archive), and install by using [these instructions](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html).
+- Download cuDNN v5 (May 27, 2016), for CUDA 8.0 from [here](https://developer.nvidia.com/rdp/cudnn-archive), and install by using [these instructions](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html).
+
+
+## Java
+Instructions to install the Stanford CoreNLP can by found [here](https://github.com/stanfordnlp/CoreNLP).
+
+
+## Perl
+Instructions to install ROUGE-1.5.5 can by found [here]().
+
+
+
+## Python
+Create the project's virtual environment using Anaconda:
 ```
 # Clone the repository:
 git clone https://github.com/stepgazaille/RSAsummarization.git
 cd RSAsummarization
 
-# Create and activate a virtual environment:
+# Create the virtual environment:
 conda env create -f rsasum.yml
+
+# Activate the environment with:
 conda activate rsa
-
-# Install tensorflow_gpu-1.2.1:
-pip install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.2.1-cp27-none-linux_x86_64.whl
-
-# Download NLTK stopwords:
+```
+Download NLTK stopwords
+```
 python -m nltk.downloader stopwords
-
-# Install pythonrouge
+```
+Install tensorflow_gpu-1.2.1:
+```
+pip install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.2.1-cp27-none-linux_x86_64.whl
+```
+Install pyrouge:
+```
 pip install git+https://github.com/tagucci/pythonrouge.git
+pyrouge.test
+
+# if "Cannot open exception db file for reading: rouge_installed_path/ROUGE-1.5.5/data/WordNet-2.0.exc.db" error:
+cd pythonrouge/RELEASE-1.5.5/data/
+rm WordNet-2.0.exc.db
+./WordNet-2.0-Exceptions/buildExeptionDB.pl ./WordNet-2.0-Exceptions ./smart_common_words.txt ./WordNet-2.0.exc.db
 ```
 
-Update "cmd" and "generated_path" and variables from multidocs.py:
-```
-# TODO: take the following as script parameters?
-cmd = 'python run_summarization.py --mode=decode --single_pass=1 --coverage=True --vocab_path=../data/DMQA/finished_files/vocab --log_root=log --exp_name=myexperiment --data_path=test/temp_file --max_enc_steps=4000'
-generated_path = 'log/myexperiment/decode_test_4000maxenc_4beam_35mindec_100maxdec_ckpt-238410/'
-```
-
-
-# Datasets
 ## Pretrained model
 Download the Tensorflow 1.2.1 pretrained model from [here](https://github.com/abisee/pointer-generator) and copy it to the RSAsummarization directory:
 ```
@@ -48,7 +77,7 @@ unzip ../data/RSAsum_models/pretrained_model_tf1.2.1.zip
 cp -r ../data/RSAsum_models/pretrained_model_tf1.2.1/train/ log/myexperiment/train/
 cp -r ../data/RSAsum_models/pretrained_model_tf1.2.1/decode_test_400maxenc_4beam_35mindec_120maxdec_ckpt-238410/ log/myexperiment/decode_test_4000maxenc_4beam_35mindec_100maxdec_ckpt-238410/
 ```
-
+# Datasets
 ## DMQA data
 All you need is [here](https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail).
 
@@ -93,26 +122,18 @@ rm -rf NISTeval/
 tar -zxvf mainEval.tar.gz
 mv mainEval/ROUGE/models/ duc07tokenized/models/
 rm -rf mainEval/
-
-## DUC preproc:
-# remove special character after word "warning" in file duc05tokenized/models/D400.M.250.B.J
-# replace "é" characters with "e" in word "émigré" in file duc05tokenized/models/D354.M.250.C.C
-# replace "é" characters with "e" word "Jean Chrétien" in ??
 ```
 
+### Pre-processing
+Excute all three DUC preproc script and copy the resulting duc0Ntokenized directories to the RSAsummarization directory:
+```
+python duc2005_preproc.py
+cp -R duc05tokenized/ RSAsummarization/duc05tokenized
+python duc2006_preproc.py
+cp -R duc06tokenized/ RSAsummarization/duc06tokenized
+python duc2007_preproc.py
+cp -R duc07tokenized/ RSAsummarization/duc07tokenized
+```
 
 # Usage
-Normal:
-```
-python runsum.py
-# or
-python multi_doc.py
-# etc.
-```
-With logs:
-```
-python -u  runsum.py 2>&1 | tee log/$(date '+%Y-%m-%d-%Hh%Mm%Ss').log
-# or
-python -u  multi_doc.py 2>&1 | tee log/$(date '+%Y-%m-%d-%Hh%Mm%Ss').log
-# etc.
-```
+Open and execute one of the following Jupyter notebooks: runsum.ipynb, runvis.ipynb, d366i.ipynb or multi_doc.ipynb. You might need to edit the notebooks to use path to data according to your own setup.

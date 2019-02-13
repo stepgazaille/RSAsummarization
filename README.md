@@ -77,6 +77,18 @@ unzip ../data/RSAsum_models/pretrained_model_tf1.2.1.zip
 cp -r ../data/RSAsum_models/pretrained_model_tf1.2.1/train/ log/myexperiment/train/
 cp -r ../data/RSAsum_models/pretrained_model_tf1.2.1/decode_test_400maxenc_4beam_35mindec_120maxdec_ckpt-238410/ log/myexperiment/decode_test_4000maxenc_4beam_35mindec_100maxdec_ckpt-238410/
 ```
+
+
+## Pretrained Google News corpus
+Download the pretrained Google News word2vec corpus from [here](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing), decompress it and copy it to the RSAsummarization directory:
+```
+# Adapt those:
+gunzip GoogleNews-vectors-negative300.bin.gz
+ mv GoogleNews-vectors-negative300.bin RSAsummarization/GoogleNews-vectors-negative300.bin
+```
+
+
+
 # Datasets
 ## DMQA data
 All you need is [here](https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail).

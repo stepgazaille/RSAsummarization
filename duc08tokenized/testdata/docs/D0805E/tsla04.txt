@@ -1,0 +1,25 @@
+
+one prominent wall street analyst is questioning how tesla may be allocating its expenses across different businesses .
+bernstein reiterated its market perform rating on tesla shares , citing its concerns over the electric car maker 's declining profit margin in its `` services and other '' business segment .
+`` tesla reports revenues and gross margins each quarter for its ` automotive ' and ` services and other ' segments .
+interestingly , ` services and other ' gross margins have steeply plunged in recent quarters , '' analyst toni sacconaghi said in a note to clients friday entitled `` services margins are plummetingâ € ¦ does this mean automotive gross margins could be overstated ? ''
+`` the worry/key question , of course , is whether cogs that should be -lrb- or historically have been -rrb- booked in the automotive segment are now being booked in the ` services and other ' reporting segment , given that investors focus nearly exclusively on automotive gms & generally disregard ` services and other ' gms -lsb- gross margins -rsb- . ''
+the analyst reaffirmed his $ 265 price target for tesla shares , representing 24 percent downside to thursday 's close .
+sacconaghi noted how tesla 's gross profit margin for its services and other segment declined to a negative 45 percent in its first-quarter 2018 results from a positive 5 percent in its third-quarter 2016 report .
+`` specifically , our guesses would be that
+-lrb- 1 -rrb- some portion of warranty expenses are being accrued in ` services and other ' , though we note that tsla 's overall warranty accruals appear generous vs. other manufacturers , and the company states that it includes all warranty expense in its automotive segment ;
+-lrb- 2 -rrb- post warranty work is high and being done for free , resulting in limited services revenues but escalating cogs ; or
+-lrb- 3 -rrb- there is some other incremental service cost associated with model 3 -lrb- given that service revenues and cogs appeared to diverge at the time of model 3 ramp -rrb- , '' he said .
+tesla shares declined 3 percent friday after the report .
+when asked for comment , a tesla spokesperson pointed to sections in the company 's first-quarter shareholder letter that said increased costs in the services and other segment were due to a build-out of its mobile service infrastructure .
+here is the full part from that letter :
+`` during q1 , we opened nine new store and service locations , resulting in 339 locations worldwide at the end of the quarter .
+we continue to expand our service capacity mainly through growth of our electrified mobile service fleet .
+such service capacity is quicker to deploy , incurs lower upfront and operating costs and has continued to generate significantly higher customer satisfaction rate at an average of 98 % .
+there are about 300 mobile service vehicles in operation today , which is an equivalent of approximately 60 service locations .
+at the end of q1 , 25 % of all service carried out in north america was done without customers having to visit a physical service center .
+...
+service and other gross loss in q1 2018 increased to $ 118 million as a result of the continued growth and maturation in our service infrastructure .
+our used car sales had slightly positive gross margin .
+we expect service and other losses to reduce substantially in the coming quarters as our service infrastructure becomes significantly more utilized with the ramp of our model 3 fleet size .
+there are also substantial revenue generating opportunities as we open our own body shops in 2018 to improve costs of out-of-warranty repairs and as we increase our offering of accessories and merchandise . ''

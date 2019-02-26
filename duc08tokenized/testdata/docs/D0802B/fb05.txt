@@ -1,0 +1,31 @@
+
+facebook 's stock price took a 20 % tumble this week after the company 's latest quarterly earnings revealed stagnating user growth in key markets and rising costs associated with tackling misinformation , election interference and privacy issues .
+more than $ 118bn was wiped off the company 's market value and mark zuckerberg 's fortune took a hit of $ 16bn , after the company announced its financial results for the second quarter of 2018 , the company 's first full quarter since the cambridge analytica scandal broke .
+how bad is it for the social network ?
+why is this happening ?
+the core problem appears to be decelerating revenue growth , fuelled by user base stagnation in europe and the us , where facebook makes the bulk of its advertising revenue .
+during the earnings call the company revealed that growth would continue to slow down throughout the second half of 2018 , moving the company from a long period of `` hyper-growth '' -lrb- more than 40 % year on year -rrb- to just high growth .
+`` we expect our revenue growth rates to decline by high single-digit percentages from prior quarters sequentially in both q3 and q4 , '' said the company 's chief financial officer , david wehner .
+`` it 's usually a slow progression going from hyper-growth to just growth . in this case it 's a step function down . that 's why you are seeing more of an overreaction , '' said loup ventures ' gene munster .
+is this because of privacy problems identified in the cambridge analytica scandal ?
+to a certain extent .
+the platform 's investment in security on the platform , including tackling election interference , misinformation and privacy problems is a major contributor to rising costs .
+facebook 's privacy practices came under the microscope after the observer revealed in march that the data firm cambridge analytica inappropriately obtained tens of millions of users ' data without their permission .
+however , facebook ramped up spending after 2016 us presidential election and has been warning about how that would affect profitability since november 2017 -- well before the key cambridge analytica revelations in march this year .
+lynnette luna , the principal analyst at globaldata , put it down to an `` amalgamation of weird things happening at the same time '' .
+she noted that in addition to the slower growth and bad publicity over the last 18 months , europe 's general data protection regulation , was a significant factor , contributing to a drop of 3 million users between q1 and q2 .
+`` it 's an unfortunate market condition , '' she said .
+how significant is this for facebook ?
+it 's the biggest ever one-day drop in a company 's market value , falling from a record high of $ 619bn on wednesday to just $ 501bn in early trading on thursday .
+however , the company 's valuation is still higher than it was after the us federal trade commission confirmed it was investigating the company over its privacy practices following the cambridge analytica revelations .
+what does this mean for facebook employees ?
+a little-discussed problem for facebook is the impact falling stock prices have on employees .
+most facebook staff get a significant portion of their total compensation in shares .
+up until now , in spite of a litany of scandals after the 2016 election , the company has consistently grown , which makes it easier for the company to retain loyal staff .
+`` if a perception sets in that the stock price is not going to be as positive a force for their total compensation , that may have a profound impact on facebook , '' said roger mcnamee , an early facebook investor and outspoken critic of the platform .
+mcnamee said that the company 's rising stock price had made employees `` willing to overlook '' some of the company 's problems , including questions over its role in skewing elections , the proliferation of misinformation and hate speech on the platform , and its use by totalitarians in cambodia and the philippines .
+`` if the stock has been the medicine that allows them to do that and employees stop being confident in the stock , you have the chance for a susan fowler moment , '' he said , referring to the woman who sparked a revolt at uber after publishing an essay highlighting widespread sexism within the company .
+is this the beginning of the end of facebook ?
+absolutely not . even though user numbers on the social network are stagnating in europe and the us , the company still managed to squeeze more revenue from every user .
+furthermore , the company has a lot of monetisation opportunities with instagram -lrb- thanks to the recent launch of igtv -rrb- , marketplace , messenger and getting businesses to pay to interact with customers through whatsapp .
+`` expect to see a bigger emphasis on growth of facebook 's family of platforms rather than facebook proper , '' said luna .

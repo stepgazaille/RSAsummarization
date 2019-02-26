@@ -1,0 +1,38 @@
+
+on tuesday , facebook 's stock price continued its free fall , plummeting by 6 % for the second day in a row , putting the stock price 10 % lower than it was at market close on friday .
+the dip has erased all gains since september 2017 .
+monday 's dip alone was the worst 1-day price drop for the company since march 26 , 2014 , when the market reacted to the company 's acquisition of oculus vr .
+so , why the sudden sell-off now ? here 's what you need to know .
+facebook is under investigation by the ftc .
+tuesday , bloomberg and the washington post reported that facebook was under investigation by the federal trade commission for potentially violating a 2011 consent decree where facebook agreed to get users ' permission before changing certain privacy settings .
+the settlement came after facebook was charged with changing certain privacy settings without alerting users .
+if the ftc fined facebook in violation of the settlement , it can fine the company up to $ 40,000 per day that the agreement is broken .
+facebook denies violating the agreement .
+the investigation comes after facebook admitted that cambridge analytica was able to harvest its data
+the investigation follows the new york times and observer reports that say cambridge analytica , the data company founded by former trump staffer steve bannon and republican mega-donor robert mercer , harvested data from over 50 million facebook profiles without users ' permission to create targetable personality profiles for campaign advertisements used in the 2016 us presidential election .
+facebook claims that the data was passed to cambridge analytica by a russian-american researcher , who said he was using it for academic purposes .
+the reports raised criminal and security concerns for facebook .
+the reports raised serious concerns about the company 's security practices and suggested that facebook representatives may have lied under oath .
+facebook has repeatedly told british and american politicians under oath that cambridge analytica did not have access to facebook user data , but whistleblower christopher wylie showed the times and observer a letter dated august 2016 asking him to destroy user data collected by his company , suggesting that facebook was aware of the data vulnerability when it told legislators that cambridge analytica did n't have its data .
+the letter only came after an article in the guardian reported that cambridge analytica had obtained facebook user data that it potentially used to sway the brexit vote and in the ted cruz campaign .
+facebook did not follow up with its initial request that the data be destroyed , simply asking wiley to mark a checkbox to confirm that the data was erased .
+the academic who collected the data says users were simply told the data was being collected for academic purposes . facebook called the data transfer to cambridge analytica `` a serious abuse of our rules , '' but did not explain what would prevent the same thing happening in the future .
+politicians are now calling for greater regulation of the company .
+adding to the bad press , politicians from britain and the us are now calling for hearings into facebook 's privacy practices and calling for greater regulation of the company .
+damian collins , conservative chair of the uk digital , culture , media and sports committee told lbc radio that `` the time has now come for us to look at giving more powers to the information commission in the uk . '' .
+antonio tajani , european parliament president , tweeted monday that the eu will investigate the data breach , calling it an `` unacceptable violation of our citizens ' privacy rights . '' .
+republican senator john kennedy joined democratic senator amy klobuchar in asking the senate judiciary committee chairman to hold a hearing where lawmakers could question mark zuckerberg and other top tech chief executives .
+in the us , facebook has already faced increased pressure from lawmakers after it was revealed that facebook ads played a critical role in russia 's covert manipulation of the 2016 presidential election .
+some wall street analysts say the reports represent critical problems with facebook .
+some wall street analysts say the reports pose big problems for facebook , despite a large majority of them rating the stock a `` buy . '' .
+brian wieser , of pivotal research group , reaffirmed his companies `` sell '' rating in an email to clients monday morning , writing `` we think this episode is another indication of systemic problems at facebook . â € ¦ we see enhanced risks for the company , but no near-term tangible impact on its business . '' .
+peter stabler of wells fargo told reuters that `` this episode appears likely to create another and potentially more serious public relations ` black eye ' for the company and could lead to additional regulatory scrutiny . '' .
+other factors could be contributing .
+the recently highlighted security concerns might not be the only problem contributing to facebook 's market tumble .
+at the end of january , facebook revealed that for the first time in its history , the number of people who used the site daily in the us and canda dropped between the third and fourth quarter of 2017 .
+reportedly , facebook lost a million daily users .
+users also reportedly spent 5 % less time on the site .
+facebook 's leaders are also sending poor messages on the stock , with mark zuckerberg selling around $ 500 million in shares and sheryl sandberg selling over $ 300 million .
+a market-wide slump .
+overall , the dow jones suffered a 0.8 % drop since friday , signaling other losses .
+the slump is widely attributed to speculation around the federal reserve 's expected interest rate hike , which may come this week , that will most likely set a more aggressive path for tackling inflation .

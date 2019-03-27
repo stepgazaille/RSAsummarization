@@ -1,0 +1,42 @@
+
+the insurance institute for highway safety recently ran a test on which cars have the best autonomous driving capabilities .
+no , they did n't test robo-taxi services like alphabet 's -lrb- googl - get report -rrb- -lrb- goog - get report -rrb- waymo or general motors ' -lrb- gm - get report -rrb- cruise unit .
+instead , the iihs tested five luxury cars that many consider to have the top autonomous driving features .
+they included the tesla -lrb- tsla - get report -rrb- model 3 and model s , the mercedes -lrb- ddaif -rrb- e-class , the bmw 5-series and volvo s90 .
+however , there is an important distinction to note with the tesla vehicles .
+the model 3 is equipped with autopilot version 8.1 , while the model s was running on version 7.1 and one camera .
+spoiler alert : the model 3 did much better than the s.
+with tesla 's autopilot version 9 expected to come out in the next several weeks , there 's no telling what type of improvement these results will yield .
+autonomous driving : lane assist
+in any regard , the iihs put the five vehicles through a number of tests , which include lane-keeping ability and emergency braking .
+for the lane-keeping test , each car was tested six times on six different tracks -- three hilly highways and three curvy highways .
+the iihs wanted to put these cars through tough tests , seeing how they do when the lane markings disappear from sight .
+touching or crossing the lane was considered a fail .
+the model 3 performed the best , passing on 35 of its 36 runs .
+notably , the car touched its lane but did not lose the lane on its one strike .
+the model s did n't fair as well , but was a mixed bag .
+the vehicle failed a whopping 12 out of 18 times on the hilly test , but passed on 17 of 18 runs on the curvy track -lrb- the model 3 went 18/18 on the curve run -rrb- .
+interestingly , the mercedes e-class did better on the hills vs. curves , scoring 83 % and 50 % , respectively .
+bmw put up a goose egg on the hills , failing on each run , while only passing on 3 fail-proof runs on the hill course .
+further , the bmw 5-series disengaged a whopping 16 times out of its 36 runs .
+the volvo s90 disengaged four times during its runs and only kept its lane half the time in each test .
+in this regard , tesla 's model 3 was a big-time winner compared to others and a sign that tesla really is advancing rapidly in the autonomous driving game .
+autonomous driving : braking
+adaptive cruise control allows vehicles to accelerate and slow down based on the vehicle in front of them .
+with only emergency braking turned on and with acc turned off , not all cars performed the same .
+there was good and bad news with this test for tesla , starting with the latter .
+while driving at 31 mph toward a stationary object , both the model s and model 3 braked too late and hit the object .
+the e-class , 5-series and s90 all stopped in time .
+with acc turned on , though , neither tesla hit the object and actually began braking before its mercedes and bmw counterparts .
+all four cars decelerated gently , making for a comfortable stop , while the s90 hit the brakes forcefully with acc engaged .
+other tests included following a lead driver who decelerates and another where the lead driver abruptly changes lanes and in doing so , reveals a stationary inflatable vehicle ahead of the test car .
+in the first instance , all five vehicles `` decelerated smoothly , '' according to iihs .
+in the second scenario all but the s90 decelerated smoothly , with none of the vehicles hitting the object .
+autonomous driving conclusions
+following vehicles does n't seem to be an issue , but encountering stopped vehicle can be .
+all of the vehicle except the model 3 failed at some point in this regard when testing on public road with acc engaged , although the model 3 proved to be a bit overly cautious .
+seven of its 12 braking incidents were for tree shadows .
+while we would generally want a cautious car over an aggressive one , unnecessary braking can cause accidents , along with driver frustration .
+the conclusion ?
+`` we 're not ready to say yet which company has the safest implementation of level 2 driver assistance , but it 's important to note that none of these vehicles is capable of driving safely on its own , '' says david zuby , iihs chief research officer .
+that 's a strong stance on the matter and big reality check for the autonomous driving industry .

@@ -1,0 +1,167 @@
+
+last weekend , a pair of exposés in the times and the guardian revealed that cambridge analytica , the u.k.-based data-mining firm that consulted on donald trump 's presidential campaign , not only used facebook to harvest demographic information on tens of millions of americans -- something we 've known since 2015 -- but also may have acquired and retained that information in violation of facebook 's terms of service .
+the harvesting was reportedly carried out in 2014 by aleksandr kogan , a lecturer in psychology at the university of cambridge , using a facebook app , which was downloaded by about three hundred thousand users .
+at the time , facebook 's data-sharing policies were far more permissive than they are now : simply by authorizing an app , users could give developers access not only to their own data -- photos , work histories , birthdays , religious and political affiliations -- but also to the data of all their friends .
+facebook has bristled at the suggestion that what kogan and cambridge analytica did constitutes a breach .
+`` people knowingly provided their information , no systems were infiltrated , and no passwords or sensitive pieces of information were stolen or hacked , '' paul grewal , the company 's deputy counsel , stated last saturday .
+but the furor has continued , amid reports that stephen bannon , the former chief strategist of trump 's campaign , oversaw the collection of the data and used it to craft messaging for trump 's presidential bid .
+on wednesday , facebook 's c.e.o. , mark zuckerberg , addressed the `` cambridge analytica situation '' in a post , writing , `` we will learn from this experience to secure our platform further and make our community safer for everyone going forward . ''
+it was n't zuckerberg 's first mea culpa .
+in the past eighteen months , thanks in no small part to trump 's victory , he and other silicon valley leaders have been forced to reckon with the sometimes negative role that their companies play in americans ' lives -- fake news , ideological echo chambers , russian bots .
+now facebook and the public face two crucial questions : how did we get here ? and can the platform be fixed ?
+we asked a handful of writers who have covered technology for the new yorker -- adrian chen , nathan heller , andrew marantz , and anna wiener -- to discuss these questions over e-mail and suggest something like a way forward .
+we began with zuckerberg 's recent post .
+the participants ' remarks have been edited for length and clarity .
+adrian chen : zuckerberg 's apology jumps between two distinct issues -- one technical , one human -- in a way that gives me whiplash .
+the first issue he lays out and shuts down with aplomb .
+he explains that , in 2014 , facebook made it so that third-party apps like kogan 's could harvest the data of users ' friends only if those friends also opted into the app .
+if that were the only problem , then this would be an open-and-shut case .
+alas , there 's also the human problem -- the problem of shady developers .
+the only thing that zuckerberg offers here is harm reduction .
+going forward , he writes , facebook will `` require developers to not only get approval but also sign a contract in order to ask anyone for access to their posts or other private data . ''
+of course , cambridge analytica formally certified to facebook that it had destroyed the data from kogan 's app , then , according to the times report , may have failed to do so .
+the larger problem , though , is that the winding path the data took , from facebook to kogan to cambridge analytica , suggests that protecting users ' information once it is in the developer ecosystem is incredibly difficult .
+you get a real putting-the-genie-back-in-the-bottle feeling .
+maybe zuckerberg hopes that , by laying out this narrative , he 'll offer a picture of a technical loophole that has already been closed .
+but the human vulnerability is as present as ever .
+the only good news , it seems , is that it will be a little less violating next time .
+anna wiener : that statement !
+there 's so much going on there , and also not that much at all .
+it reads to me like a postmortem for a software project , run through the communications and legal departments .
+it 's a gesture at transparency , but it 's very slippery .
+adrian , i think you 're exactly right that this is both a technical problem and a human problem , and that zuckerberg is pushing the narrative of bad actors who exploited a loophole .
+but if we can call it a loophole at all , then it 's a policy loophole : facebook was operating exactly as it was intended to .
+it was and is an ad network .
+the scope of the metadata that developers could harvest -lrb- and retain -rrb- probably is n't surprising to anyone who has worked in ad tech , or at any tech company , really .
+facebook trusted developers to do the right thing , and i think this reliance on good faith -- a phrase that gets a lot of exercise in the tech industry -- tracks with a sort of tech-first , developer-is-king mind-set .
+in some ways , this trust in developers is a product of carelessness , but it 's also a product of a lack of imagination : it rests on the assumption that what begins as a technical endeavor remains a technical endeavor .
+it also speaks to a greater tension in the industry , i think , between technical interests -lrb- what 's exciting , new , useful for developers -rrb- and the social impact of these products .
+i do n't know how software is built at facebook , but i imagine that the engineering team working on the graph a.p.i. , a developer tool that enables interaction with the platform 's user relationships , probably was n't considering the ways in which metadata could be exploited .
+it 's not necessarily their job to hypothesize about developers who might create , say , fifteen apps , then correlate the data sets in order to build out comprehensive user profiles .
+that said , maybe it should be the job of the product-management team .
+i do n't mean to lean too heavily on conjecture ; facebook is a black box , and it 's nearly impossible to know the company 's internal politics .
+in any case , the underlying issues are n't specific to facebook .
+the question of good faith is an industry-wide problem .
+data retention is an industry-wide problem .
+transparency is touted as a virtue in silicon valley , but when it comes to the end user , transparency is still treated as more of a privilege than a right .
+andrew marantz : to adrian 's point : harm reduction is better than nothing .
+i 'm all for harm reduction .
+and yet i agree with both of you that the human problem is n't going away , because the human problem is : humans .
+we 'll eventually have driverless cars , even if a few pedestrians get killed in the process ; we 'll eventually have bankless currency , whether it drives the banks out of business or not ; but we 'll never have personless social media .
+-lrb- or , if we do , it wo n't be profitable for long ; advertisers ca n't sell widgets to scripts and bots . -rrb-
+zuckerberg , in his recent apology mini-tour , left behind a lot of tea leaves .
+the statement that most piqued my interest was this one , from his interview on cnn : `` for most of the last ten years , this idea that the world should be more connected was not very controversial .
+and now i think that there are starting to be some people that question whether that is good . ''
+as i noted in a recent piece about reddit , facebook 's mission , for most of its lifespan , was to `` make the world more open and connected . ''
+-lrb- that changed slightly last june . -rrb-
+underlying the mission was a tacit assumption about human nature -- that people are basically trustworthy and , therefore , that a more open and connected world will naturally , perhaps automatically , become a better one .
+now zuckerberg is prepared to make that assumption explicit and to admit that `` some people '' are starting to lose faith in it .
+who are `` some people '' ?
+is zuckerberg one of them ?
+does he find them persuasive ?
+i want to know more .
+are human beings essentially good ?
+are they , to use adrian 's word , essentially shady ?
+the fact that we ca n't know the answer is , i think , part of the answer .
+when you place an enormous bet on the kindness of strangers , you might be unpleasantly surprised .
+and you might break a few democracies along the way .
+nathan heller : human nature , indeed .
+it occurs to me that a lot of this slices into three big problems , and that they start to indicate what facebook might do better going forward .
+first , the trust problem .
+the good-faith presumption you were pinpointing , anna , obviously ca n't hold in the eyes of users .
+there have been repeated issues .
+it does n't help that facebook is commercially oriented -- and that few users understand what , data-wise , goes on under its hood .
+say the transmission goes out on your car , and you take it to your mechanic , and the mechanic says , `` christ ! let 's get this fixed , '' and spends a few days with it .
+then , three months later , the transmission goes out again , and the mechanic says , `` christ ! let 's get this fixed , '' and you pay for the repair again .
+and then it happens a third time !
+you would not be crazy to suspect that your mechanic is profiting from oversight .
+how can the mechanic win back your trust ?
+well , maybe the third repair is free .
+should facebook consider a step plainly against its commercial interests , as a show of good faith ?
+second , the culture problem .
+as you suggest , andrew , since people can be trustworthy and shady , both possibilities should probably be built into planning .
+recently , for a piece , i talked with some people at data-security companies , and the thing they kept emphasizing was that you ca n't completely prevent data breaches .
+they happen .
+what really matters is the response : how quickly you know about them , how comprehensively and transparently you react .
+our very brilliant sawbones colleague atul gawande once gave a speech about surgical rescue .
+it turns out that complication rates at all hospitals are basically the same , and what differs -- what makes people die less in some than in others -- is `` rescue '' rates .
+facebook seems to have a bad rescue culture .
+it notices -lrb- or publicly acknowledges -rrb- major problems too late .
+it tries to do things with scrap following an explosion .
+third , the conceptual problem -- and i think this really goes to the heart of the human-technical fuzziness you point out , adrian .
+platforms are always talking about scalability , but they usually mean it only in a narrow business sense .
+-lrb- `` social , '' for them , is a structural term , not a human one . -rrb-
+a platform with 2.2 billion monthly active users should probably be assessing scalability in some broader frame .
+what about societal scalability ?
+facebook 's year of problems suggests that it 's not woo-woo to think this way ; for all its cogitation , the tech world rarely frets about second-order societal effects , let alone third-order and fourth-order .
+what if facebook convened a cabinet of unfriendly social economists , media scholars , data historians , whatever -- people who think systemically in other frames -- and let them kick tires and raise a fuss ?
+this strikes me as only a medium-insane idea .
+finally , i just want to say , lest i seem to run negative , that i was strangely charmed by zuckerberg 's as-a-father-of-daughters answer .
+say what you will ; it 's on zeitgeist .
+anna wiener : nathan , i think your point about facebook 's commercial orientation is really important .
+facebook 's customers are not its users .
+it 's a developer-oriented attention magnet that makes its money from advertisers based on the strength of its users ' data .
+for facebook to truly prioritize user privacy could mean the collapse of its revenue engine .
+so when zuckerberg says , `` we have a responsibility to protect your data , and if we ca n't then we do n't deserve to serve you , '' it 's very strange , because it assumes that facebook 's primary orientation is toward users .
+zuckerberg runs a business , not a community ; my understanding is that facebook sees itself as a software company , not a social institution , and behaves accordingly .
+-lrb- also , i was tripped up by `` deserve '' : facebook is a default . aside from instagram , a social network owned by facebook , or a revival of path , users do n't have much of a choice .
+legislation recently passed in congress is likely to compound this problem . -rrb-
+to `` fix '' facebook would require a decision on facebook 's part about whom the company serves .
+it 's now in the unenviable -lrb- if totally self-inflicted -rrb- position of protecting its users from its customers .
+if facebook users could see themselves as advertisers likely do , they would probably modify their sharing behaviors .
+can the platform be both a functional social network and a lucrative ad network ?
+andrew marantz : nathan asks whether facebook might act against its commercial self-interest as a show of good faith .
+in january , the company announced a change to its news feed algorithm : it would , somewhat ironically , show users less news , or at least less news of the professionally produced , non-personal variety .
+-lrb- it 's hard to tell real news from fake news , and even the real news is a bummer these days . -rrb-
+`` i expect the time people spend on facebook and some measures of engagement will go down , '' zuckerberg wrote in a post explaining the change .
+translation : we 'll make less money , at least in the short term .
+and yet , he added , `` if we do the right thing , i believe that will be good for our community and our business over the long term . ''
+so was this a show of good faith , or just a canny long-term strategy ?
+does it go any distance , anna , toward making facebook seem like less of a software company and more of a social institution ?
+companies are designed to make money , but the people who run them are not immune to such human motivations as shame and pride .
+adam mosseri , the head of news feed , was recently asked about facebook 's role in exacerbating violence against myanmar 's rohingya minority .
+`` we lose some sleep over this , '' he responded .
+that 's believable , no ?
+adrian chen : i do n't buy the idea that whenever facebook makes a decision that lowers its revenue it is some meaningful sign of social responsibility , or that it will necessarily lead to a better outcome .
+i 'm thinking of how zuckerberg , for the first years of facebook 's existence , absolutely refused to take advertising , because it might corrupt the network .
+he lost a ton of money !
+the story is told all the time to frame zuckerberg as a sort of reluctant capitalist .
+but now he 's out there defending the advertising model as a way to bring facebook to the masses .
+maybe i 'm too cynical , but it seems as though facebook has been very good at spinning whatever design or business decision is most advantageous to it at the time as good for the world , even as it grows bigger and more powerful , less actually accountable to the users it supposedly serves .
+i ca n't be bothered with the performance of altruism any more .
+anna wiener : i agree with you , adrian : there 's nothing morally superior about making product changes that lead to short-term revenue dips .
+i do want to pick up on something that andrew brought up -- adam mosseri 's comment about losing sleep .
+i imagine that facebook largely employs smart , thoughtful people who want to do the right thing .
+for me , the question is who , internally , is empowered to make product and policy decisions .
+i suspect transitioning from operating primarily as a software company to operating as a social institution would require an audit of the organizational dna .
+in an interview yesterday , with recode , zuckerberg addressed facebook 's challenges around content and free speech : `` things like , ` where 's the line on hate speech ? '
+i mean , who chose me to be the person that did that ?
+i guess i have to , because we 're here now , but i 'd rather not . ''
+i 'd argue that zuckerberg himself does n't have to be the person making those decisions .
+bring in some new voices , and empower them .
+cede the reins a bit .
+the traditional hierarchy of the average software company might have its limits when it comes to facebook .
+andrew marantz : i should point out , as long as we 're talking about cynicism and who is empowered to make decisions within the company , that the times recently followed up on that mosseri comment by asking zuckerberg directly , `` are you losing any sleep ?
+do you feel guilty about the role facebook is playing in the world ? ''
+zuckerberg 's response was more than two hundred words long , but it basically amounted to , `` nah , not really . ''
+nathan heller : `` every man 's insomnia is as different from his neighbor 's as are their daytime hopes and aspirations . ''
+that 's f. scott fitzgerald , from his cracked period .
+an emphasis may fall on the difference in hope .
+you make an acute point , anna -- and i certainly do n't think you 're cynical , adrian .
+facebook is a big company with an even bigger platform ; it has commercial momentum and pressures presumably larger than any one person 's general good intent .
+how do you get the apparatus on the right side of your supposed values ?
+andrew , i think this pertains to the january news feed change .
+i guess i should have said `` plainly against its commercial interests and in support of a long-term benefit for users ''
+-lrb- who , as you point out , anna , have had mostly sweet nothings whispered in their ears so far -rrb- .
+surely , for users , the best solution to fake news is n't less news .
+a show of good faith , i 'd imagine , would require a deeper cut than that .
+i like that we 've landed on the phrase `` social responsibility . ''
+it seems like possibly the core of our concerns .
+what does social responsibility mean for a tech giant like facebook -lrb- but not just for facebook -rrb- ?
+we have n't really discussed regulatory parameters , but , in a sense , responsibility parameters come first .
+there has been a tendency in silicon valley to think of social responsibility as something on top of the platform : a mission , or a service base , or just something that you do with all your cash .
+i wonder whether , through facebook 's missteps , we 're arriving at a reckoning with the idea that social responsibility is inherent in the nitty-gritty of a platform itself : how information travels , how its transfer is guarded , how the platform 's algorithms are designed .
+that would be a very different notion than what has traditionally obtained , certainly in the public eye .
+it 's like a social ethics of coding .
+is this a healthy , useful reckoning to come to ?
+i 'd say yes .

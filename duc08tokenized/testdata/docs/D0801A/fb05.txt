@@ -1,0 +1,68 @@
+
+facebook has found itself embroiled in yet another colossal controversy related to how its sprawling , multibillion-person social network has been abused by bad actors .
+this time , the culprit is cambridge analytica , a data analytics firm used by president donald trump 's campaign during the 2016 us election to target election ads on facebook .
+it turns out , cambridge analytica misused the user data of as many as 50 million facebook users via its affiliated behavior research firm strategic communication laboratories , which violated facebook 's terms of service by acquiring said data from a third-party app and reportedly lying about when that data was deleted and how it was used .
+the announcement was made on friday to preempt the publication this weekend of two blockbuster reports from the new york times and the guardian featuring claims from former cambridge analytica employee and whistleblower christopher wylie , who says the data formed the foundation of the firm 's election toolset .
+in a few short days , the stories have called into question the entirety of facebook 's ad platform , the data collection practices of its api-using third-party services , and the company 's commitment to user privacy and the policing of its platform .
+facebook has suspended cambridge analytica and strategic communication laboratories .
+yet the fallout from the two firms ' actions -- and facebook 's weak attempts to ensure the data was not misused -- has prompted widespread condemnation from politicians and tech critics and forced facebook to hire a digital forensics team today to investigate the situation .
+so now is as good a time as ever to remind you that -- beyond deleting your facebook account for good -- there are some precautions you can take to protect your privacy and make use of facebook as a utility without compromising your personal data .
+no single user can prevent a company like cambridge analytica from lying to the public and lying to facebook about where its data came from and how it 's using it .
+but you can make sure that a significant chunk of your data is never out there in the first place .
+here 's where to start :
+step one : turn off location services
+location data is among the most sensitive data you can grant to a third-party app or service .
+with location data , companies know where you 're going , where you came from , and can even glean insights from your daily travels like where you live and work and what restaurants and other businesses you frequent .
+for facebook , this data is invaluable to advertisers , and it 's also quite the pitfall for users who may not understand or realize when an app has access to this data .
+while we do n't know if this type of data was among the trove cambridge analytica reportedly had access to , it 's still sensitive data that you should only give out when you think the core service you get in exchange is worth it .
+for instance , it makes sense to grant google maps access to your location , but it makes less sense to allow some shady third-party recommendation service to use the same data .
+to turn off or limit facebook 's access to your location on ios , head to your iphone 's settings app , scroll down to `` privacy '' under the general tab , and tap location services .
+from there you can disable the feature entirely and toggle it on , off , and only while using a piece of software on an app-by-app basis .
+scroll down to find facebook , and switch it to either `` while using the app '' or `` never . ''
+there is n't a good enough reason to give facebook access to your location all the time , so make sure to never leave it set to `` always . ''
+on android , head to `` account settings , '' tap `` location . '' from there , you can toggle facebook 's access from on to off .
+step two : unlink questionable third-party apps
+perhaps you , like me , have been letting third-party apps and services access your facebook data for years without thinking twice about where that data goes or how it gets used .
+in the case of cambridge analytica , a seemingly innocuous facebook app called `` thisisyourdigitallife , '' which claimed it could predict aspects of a user 's personality , was created by cambridge psychology professor aleksandr kogan .
+the app siphoned user data from up to 270,000 people who downloaded it and signed in through facebook .
+the data included where these people lived , who their friends were , and it may have also informed election ad targeting for trump 's presidential campaign after kogan handed the data over to strategic communication laboratories , violating facebook 's tos in the process .
+to prevent your user data from helping inform a campaign to elect someone like donald trump -- a disturbing disclaimer that comes with using facebook in 2018 -- head over to the `` apps '' section of your facebook settings .
+-lrb- this is best done on desktop , but you can do it on mobile as well . -rrb-
+at the top of the page , you 'll see the total number of apps you 're logged into using facebook .
+my count at the time of writing , and with little scrubbing over my roughly 10 years on facebook , was 179 apps .
+among the included services with access to my personal information are a number of defunct or otherwise unpopular apps like voxer and viber , apps i 've heard of maybe once years ago like rebelmouse and rafflecopter , and apps i 've never heard of at all like indaba music and jagabo .
+it 's an immense amount of access granted to a sea of software detritus , and it 's likely the situation is similar for you , too .
+so the easiest way to protect yourself in this situation is to scroll to the bottom to the `` apps , websites and plugins '' square , click edit , and turn off all third-party api access . however , maybe you use your facebook login for a service like airbnb or lyft or any number of other well-meaning and otherwise ethical products . in that case , you should go through your entire app list and disable access from any questionable , defunct , or unnecessary services . you can also edit the amount of info specific apps can access and who on facebook can see that you use the app , as well as notification settings for the software .
+step three : limit sharing settings
+this is perhaps the most complicated of facebook 's privacy and security customization options , and it involves a lot of careful calibration to make sure you have a setup that works for you .
+it 's best to do this on desktop , where reviewing all this information at once on a larger display is easier than that of a smartphone screen .
+first off , click on the downward-facing triangle next to the question mark icon in the upper right corner of facebook.com .
+from there , find the `` settings '' option at the bottom .
+from here , click on `` privacy '' in the lefthand column .
+it 's here that you can toggle how what you share on facebook propagates throughout the platform and who and to what extent strangers can reach out to .
+in this case , it 's best to change the option for `` who can see your future posts ? '' to `` friends only . ''
+facebook now includes an option right below that one at the top to `` limit past posts , '' so that every post across your entire facebook history will be restricted to `` friends only '' if it had previously been shared with either everyone or just friends of friends .
+below that , you can toggle how people can find you on the platform and contact you .
+it 's here that you can edit settings for who can send you friends requests , who can see your friends list , and whether your profile shows up in search engines , and whether people can find you using your email address or phone number .
+it 's best in these cases , if you 're really trying to limit the amount of data you 've provided , to change everything to either `` only me , '' `` friends , '' or `` friends of friends '' as a last resort .
+you can also disable search engines outside facebook from linking to your profile , which is a smart move .
+below the `` privacy '' section is the `` timeline and tagging '' option , which controls who can post on your facebook profile and who tag you in photos .
+it 's best here to limit everything to `` friends '' or `` only me '' where appropriate and to make sure you have turned on the settings for reviewing tags people add to your posts and posts that you 're tagged in before they appear on your timeline .
+another lesser-known part of facebook 's settings panel is in the same cluster of categories with privacy and timeline settings and it has the ominous name `` facial recognition . ''
+if you do n't want facebook to build a profile of your face data so that it recognizes you in photos and videos other people post , turn that off , too .
+step four : remove personal info and restrict ad preferences
+the final move is to edit your `` about me '' section to limit the amount of total information you 're sharing with facebook at all times , regardless of whether you 're letting any third-party apps or services access it .
+to do so , click on that question mark icon in the upper right corner of the page and click on `` privacy checkup . ''
+go through the first step in this process until you to get step number two , where at the bottom you have the option to go to your about page .
+from there , you can edit or delete all types of information you 've shared on facebook , from your work and education history to where you 've lived to contact and basic info like email addresses and phone numbers .
+you can , of course , keep this info intact and on facebook , and just limit the vast majority of it to being visible only to you .
+but if you really want to get this info off of facebook for good , you should remove it .
+stripping out all of this info will necessarily make it harder to find you on facebook , but again , that should be the point of this exercise if you just want to keep your profile as a way to keep in touch with old friends or , for instance , to use facebook messenger .
+you can basically strip everything out of your profile except your name , birthday , and gender , which you are able to restrict visibility of anyway .
+to ensure that your profile appears the way you want it to when viewed by both a friend or a stranger , make sure to use facebook 's view as feature that lets you look at your profile from the perspective of another user .
+to find that option , tap on the three small dots next to the `` view activity log '' option overlaid on top of your cover photo , next to the edit profile box .
+in the drop-down menu there , you should find view as , which defaults to showing the public version of your profile with an option to look at it as a specific person up at the top of the page .
+last but certainly not least , head over to the ad preferences page here to remove the ability for advertisers to target ads based on your personal information .
+you can make it so advertisers can not run ads informed by your relationship status or where you work , or any of the dozens of categories facebook has automatically selected for you based on the information you 've provided and what the company nebulously refers to as `` other activity , '' which ranges from classifications like `` gmail user '' and `` close friend of expats '' to `` frequent traveler . ''
+you can also see a total list of all the pages you like here and remove ones you do n't want to be used for advertising purposes .
+at the bottom of the page , you can toggle off the ability for advertisers to base ads on your use of third-party websites and apps that rely on tracking cookies to inform facebook of products you may be looking at on amazon and elsewhere .

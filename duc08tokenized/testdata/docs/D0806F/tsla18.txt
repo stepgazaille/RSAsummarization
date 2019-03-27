@@ -1,0 +1,47 @@
+
+a former member of tesla 's in-house security team has told the securities and exchange commission that the company silenced internal investigations into alleged criminal activity at the gigafactory in nevada , according to a summary of his formal complaint .
+those investigations focused on claims of massive theft and `` substantial drug trafficking . ''
+the complaint also includes allegations that tesla spied on employees ' electronic devices .
+it 's the second known whistleblower complaint from a former tesla employee filed with the sec this summer .
+the news was first reported by jalopnik .
+karl hansen , the former employee , claims that tesla was told in may by the drug enforcement administration and the storey county sheriff 's office task force that `` a tesla employee may be a participant in a narcotics trafficking ring involving the sale of significant quantities of cocaine and possibly crystal methamphetamine at the gigafactory on behalf of a mexican drug cartel from sonora mexico . ''
+after the announcement of hansen 's suit , a dea spokesperson told buzzfeed that `` the dea does not notify non-law enforcement entities of ongoing or pending investigations , '' implying that it would n't have told tesla .
+hansen says that by june he had `` corroborated connections between a certain tesla employee at the time and various alleged members of the mexican drug cartel identified in the dea report , '' and that he `` urged tesla to disclose his findings to law enforcement and to the dea task force . ''
+but hansen says the company `` refused , '' and he was informed that tesla planned to use `` outside vendors '' to follow up on the claims .
+hansen believes tesla never followed up , according to the summary .
+-lrb- the summary originally stated that `` several '' employees may be involved , but hansen 's lawyer now says there was only one particular tesla employee in question . -rrb-
+hansen also says his team discovered that , from january to june of this year , $ 37 million of copper and other raw materials were stolen from the gigafactory .
+but the company `` instructed -lsb- him -rsb- not to report the thefts to outside law enforcement , '' and told him to shut down his investigation , he says .
+hansen claims he was fired in july as a result .
+the storey county sheriff 's office said in a statement that it `` can not confirm nor deny the existence of an ongoing investigation of drug activity that is connected to the gigafactory , but says it received two reports of theft .
+the office says it was never contacted by hansen himself .
+a spokesperson for tesla said it took hansen 's allegations `` very seriously . ''
+but the company says `` some of his claims are outright false '' and `` could not be corroborated . ''
+`` -lsb- w -rsb- e suggested additional investigative steps to try and validate the information he had received second-hand from a single anonymous source , '' the spokesperson said .
+`` because we wanted to be sure we got this right , we made numerous attempts to engage further with mr. hansen to understand more about what he was claiming and the work that he did in reaching his conclusions .
+he rejected each of those attempts , and to date has refused to speak with the company further . ''
+meanwhile , ceo elon musk told gizmodo he thinks hansen is `` super . ''
+hansen is represented by stuart meissner , a lawyer who specializes in sec whistleblower complaints .
+meissner also represents martin tripp , the former tesla employee who elon musk claimed was responsible for `` sabotage '' inside the company earlier this summer .
+tesla sued tripp in june for allegedly hacking and disseminating trade secrets to `` third parties , '' as well as spreading false information to the media about the company 's inner workings .
+tesla also allegedly engaged in unauthorized surveillance of its employees , according to the summary of hansen 's complaint published today by meissner .
+hansen claims that tesla installed `` specialized router equipment within its nevada gigafactory designed to capture employee cell phone communications and/or retrieve employee cell phone data '' after tripp was fired .
+hansen and meissner also claim that tripp was surveilled by tesla even after the former employee was fired .
+`` i never expected that my employment with such a major public company would lead to uncovering such issues , and am disturbed by tesla 's highly unusual response to those like me who investigated them , '' hansen said in a statement .
+`` i am also very disturbed by tesla 's failure to respect the privacy of its own employees .
+in my opinion , tesla 's actions have placed investors , the public , and tesla employees at risk .
+i hope that shining a light on tesla 's practices will cause appropriate governmental action against the company and its management . ''
+like hansen , tripp has maintained that he was simply trying to publicize problems he saw at tesla 's gigafactory .
+he claims the company allegedly used damaged battery cells in some of its model 3 cars .
+he 's also said the company produced and mishandled an abundance of scrap material .
+-lrb- tesla has denied both claims . -rrb-
+he filed a counterclaim against tesla in july , alleging that he was defamed by musk and the company .
+in that claim , he argued that he did not hack the company 's software and that the information he shared with reporters was true .
+this week , tripp shared photos and screenshots of internal tesla documents and emails , and lists of customers ' vehicle identification numbers -lrb- vins -rrb- on twitter in an attempt to further corroborate his claims about the company 's use of damaged batteries and production of scrap material .
+tesla has faced similar claims in previous lawsuits .
+one former employee made similar claims about unreported auto part theft earlier this year , while another claimed in february that the company knowingly sold defective cars .
+but it 's notable that hansen and tripp chose instead to file formal complaints with the sec .
+tesla is under increased scrutiny from the commission as of late -- musk 's recent surprise effort to take tesla private has reportedly kicked off an official probe into the company .
+the sec previously investigated tesla over potential false statements about the model 3 , but decided against any action .
+musk 's plan to privatize tesla has also sparked no less than five lawsuits from shareholders who claim that the ceo 's erratic and apparently unplanned announcement manipulated the company 's stock price to their detriment .
+the company is reportedly `` bracing for billions of dollars in potential liability '' from these shareholder lawsuits , according to fox business reporter charles gasparino .

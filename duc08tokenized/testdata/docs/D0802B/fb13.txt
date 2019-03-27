@@ -1,0 +1,31 @@
+
+someone is trying to influence the midterm elections by sowing divisions among americans on social media , according to facebook -- though the company wo n't say it 's necessarily russia that 's to blame .
+on tuesday , facebook announced that it had removed more than two dozen pages and accounts from its platform because they were involved in `` coordinated inauthentic behavior '' in the lead-up to the midterm elections .
+while it could not explicitly link the suspicious activity to russia , facebook said it is `` consistent with '' what it saw from the russian troll farm the internet research agency before and after the 2016 presidential election .
+the accounts masked themselves as groups dedicated to specific causes and appeared to have been designed to appeal to progressives .
+one page sought out women who consider themselves part of the `` resistance , '' and another looked to appeal to individuals interested in mindfulness .
+according to the new york times , some accounts created content around the `` abolish ice '' movement .
+soon after the times reported on tuesday about the forthcoming announcement , facebook said it had removed 32 pages and accounts from facebook and instagram after determining they were involved in `` inauthentic behavior '' that 's not allowed on facebook .
+facebook detected the first of eight pages , 17 profiles , and seven instagram accounts about two weeks ago and removed them on tuesday morning .
+in total , nearly 300,000 accounts followed at least one of the pages , which were created between march 2017 and may 2018 .
+some of the pages and accounts had no followers or next to none , while others had many .
+the most followed pages were given names such as `` black elevation , '' `` aztlan warriors , '' `` mindful being , '' and `` resisters . ''
+the accounts created some 9,500 organic posts and ran 150 ads for about $ 11,000 .
+the accounts pushed content on divisive social issues -- just like they did in 2016
+facebook released examples of the content the accounts created .
+for example , the resisters page created a facebook event scheduled for august to protest a planned second act to the `` unite the right '' rally in charlottesville , virginia .
+it also created a job posting for a part-time event coordinator and posted memes promoting women 's rights and criticizing president donald trump .
+resisters ' unite the right event duped legitimate pages , which signed on to co-host the event .
+the black elevation page also posted job ads for an event coordinator and created event announcements .
+the times reported that content around the `` abolish ice '' movement was also detected .
+the fake accounts and pages homing in on divisive social issues is what happened in the russian disinformation campaign in the 2016 election , but facebook says it has n't been able to link the activity this time around directly to russia .
+`` these bad actors have been more careful to cover their tracks , in part due to the actions we 've taken to prevent abuse over the past year , '' nathaniel gleicher , the head of cybersecurity policy at facebook , wrote in a post on tuesday .
+facebook said it 's working with law enforcement and others to gather all the facts and figure out who 's behind the activity , though the company acknowledged that 's no easy task .
+chief security officer alex stamos in a separate post on tuesday talked about the difficulties of figuring out who 's behind cyberthreats .
+he emphasized that does n't mean that facebook , which has come under fierce scrutiny for its handling of misinformation and fake news , is n't taking action .
+`` the lack of firm attribution in this case or others does not suggest a lack of action , '' stamos wrote .
+`` we have invested heavily in people and technology to detect inauthentic attempts to influence political discourse , and enforcing our policies does n't require us to confidently attribute the identity of those who violate them or their potential links to foreign actors . ''
+facebook is n't the only party raising a red flag about potential hacking and meddling ahead of the 2018 midterms .
+director of national intelligence dan coats said earlier this month that the `` warning signs are there '' for cyberattacks from russia and other foreign governments .
+and a microsoft executive at the aspen security forum said in a panel that the company had detected phishing attacks targeting three us congressional candidates , though he did n't say which party they were from .
+the daily beast last week reported that sen. claire mccaskill , a vulnerable missouri democrat , had been targeted by russian hackers in her reelection bid .

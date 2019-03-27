@@ -1,0 +1,22 @@
+
+in addition to `` valet mode , '' tesla owners will be able to enjoy a new feature called the `` speed limit mode . ''
+tesla app 's adds speed limit mode
+the latest update of the tesla mobile app -lrb- version 3.4.1 -rrb- allows owners to remotely control the speed and acceleration of their vehicle .
+tesla owners with vehicle software version 2018.24 or higher will have access to the app 's new speed limit mode , which enables them to set a top speed of the car directly from the app .
+the automaker noted that the maximum vehicle speed can be set between 50 and 90 mph .
+advantages of the feature
+therefore , if tesla owners do not want their kids to drive the electric car at high speeds , and do not want to activate the valet mode , then , this might be the perfect way to restrict the actual speed without disabling the car 's other features .
+tesla has already started pushing out the software update and it will eventually be rolled out to the whole fleet .
+it has yet to be known whether the feature can be turned on while the car is being driven .
+if yes , one could also limit the driving speed of their vehicle if it has been stolen , making it easier for law enforcement to track down the vehicle .
+then again , tesla 's vehicles are rarely stolen thanks to its always-on advanced gps tracking feature .
+tesla 's valet mode
+tesla 's valet mode , when activated , discreetly limits driving performance to 70 mph and 25 percent acceleration .
+it also disables access to the glove compartment , the trunk , and other certain vehicle settings .
+personal information is also restricted .
+there are other companies that have a similar valet mode feature .
+for example , the corvette 's valet mode locks down the infotainment system and also has a performance data recorder that records everything that 's going on in the car when somebody other than the owner is driving it .
+however , tesla 's valet mode has no such recording feature , probably because it is illegal in some states in the united states .
+tesla mobile app
+last month , elon musk , tesla ceo , announced that tesla owners will soon be able to request service through the tesla mobile app and a technician will show up to repair the car without any paperwork .
+tesla claims that its mobile technicians can solve 80 percent of the issues with tesla vehicles without having to bring the car over to a tesla service center .
